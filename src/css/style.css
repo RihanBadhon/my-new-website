@@ -6,20 +6,25 @@ html {
 }
 
 body {
-    color: #333;
-    background-color: #f4f4f4; 
-    background-image: url(../img/portfolio\ background\ image.jpg); 
-    background-size: cover;
-    background-position: center;
+    background-image: url('');  
+      background-size: cover;                    
+      background-position: center;              
+      background-repeat: no-repeat;             
+      margin: 0;                                
+      height: 100vh;
+      align-items: center;       
 }
 
 
 .contact {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
-    color: #d4cfc7;
-    background-color: #333;
-    border-radius: 5px;
+    color: #eae5e5;
+    background-image: url(../img/contact-me\ background\ image.jpg);
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat;
+    width: 100%;
     
 
 
@@ -67,4 +72,15 @@ nav ul li a.fa-linkedin-in {
 
 nav ul li a.fa-discord {
     color: #5964e9; 
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #eae5e5;
+    
+}
+
+footer p {
+    margin: 0;           
 }
