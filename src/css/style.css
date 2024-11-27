@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+
+html {
+    font-family: 'Nunito Sans', 'Open Sans', Arial, sans-serif;
+}
+
+body {
+    color: #333;
+    background-color: #f4f4f4; 
+    background-image: url(../img/portfolio\ background\ image.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+
+
+.contact {
+    font-size: 20px;
+    text-align: center;
+    color: #d4cfc7;
+    background-color: #333;
+    border-radius: 5px;
+    
+
+
+}
+ul li {
+    text-decoration: none;
+    text-align: center;
+    display: inline;
+    
+
+nav {
+    text-align: center;
+
+}
+
+}
+
+.fa-brands {
+    margin-top: 20px;
+    font-size: 30px; 
+    transition: transform 0.3s; 
+    text-decoration: none;
+    padding: 7px;
+}
+
+.fa-brands:hover {
+    transform: scale(1.1); 
+}
+
+nav ul li a.fa-facebook {
+    color: #3b5998;
+}
+
+nav ul li a.fa-github {
+    color: #f1f6fc; 
+}
+
+nav ul li a.fa-instagram {
+    color: #ce506b; 
+}
+
+nav ul li a.fa-linkedin-in {
+    color: #0b66c3; 
+}
+
+nav ul li a.fa-discord {
+    color: #5964e9; 
+}
