@@ -17,6 +17,62 @@ body {
       align-items: center;       
 }
 
+header {
+    background-color: #506669;
+    opacity: 0.8;
+    padding: 18px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+
+}
+header nav ul {
+    gap: 20px;
+
+
+}
+
+header nav a {
+    color: #ffffff; 
+    text-decoration: none; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #4CAF50;   
+}
+
+header nav a:hover {
+    color: #e71818;
+    text-decoration: none; 
+    background-color: #5d6e5e;  
+}
+
+header nav button {   
+    background-color: #4CAF50; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header nav button:hover {
+    
+    background-color: #5d6e5e; 
+    cursor: pointer;
+    color: #e71818;
+}
+
+
+
+.hero-banner h1 {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 50px;
+    text-align: center;
+
+}
+
 .information {              
     text-align: center;    
 
@@ -155,7 +211,7 @@ img:hover {
     
 }
 
-.project-listing p:hover {
+.Project-listing p:hover {
     transform: scale(1.02);
     box-shadow: 0 4px 15px #2524241a;
 
