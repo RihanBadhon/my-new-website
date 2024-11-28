@@ -7,9 +7,11 @@ html {
 
 body {
      background-image: url('../img/portfolio\ background\ image.jpg');  
+      height: 100%;
+      width: 100%;
       background-size: cover;                    
       background-position: center;              
-      background-repeat: repeat;             
+      background-repeat: no-repeat;             
       margin: 0;                                
       height: 100vh;
       align-items: center;       
@@ -25,12 +27,13 @@ body {
 
 
 .information h2 {
-    font-size: 22px;         
-    color: #e3dede;                
+    font-size: 27px;         
+    color: #100101;                
     margin-bottom: 15px;       
-    text-transform: uppercase; 
-    font-weight: 250;
-    padding: 20px 20px;
+    text-transform: uppercase;
+    font-style: italic; 
+    font-weight: 290;
+    padding: 20px 20px 20px 20px;
     text-align: center;
 
 }
@@ -42,25 +45,14 @@ body {
     line-height: 2.0;           
     margin-bottom: 20px;        
     text-align: center; 
-    color: rgb(248, 243, 243); 
+    color: #c2b6b6; 
     font-weight: 200; 
     padding-left: 20px;
     padding-right: 20px;
 }
 
 
-.information .description {
-    font-size: 18px;                           
-    font-family: 'Georgia', serif;
-    line-height: 2.0;           
-    margin-bottom: 20px;        
-    text-align: center; 
-    color: #f8f3f3; 
-    font-weight: 200;
-    padding: 20px; 
-    padding-left: 20px;
-    padding-right: 20px;
-}
+
 
 
 @media (max-width: 600px) {
@@ -73,77 +65,104 @@ body {
         font-size: 17px; 
     }
 
-    .information .intro, .information .description {
+    .information .intro, .information {
         font-size: 1rem; 
     }
 }
 
+
+
 .project {
-    background-color: #bdb4b4;
-
-
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    background-color: #dad5d5;
 
 }
 
-.project-listing {
+.project h2 {
+    font-style: italic;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-size: 27px;         
+    color: #171414;                
+    margin-bottom: 15px;       
+    text-transform: uppercase; 
+    font-weight: 290;
+    padding: 20px 20px;
+    text-align: center;
     
-    background-color: #bdb4b4;
-    display: grid; 
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 20px; 
-    padding: 20px; 
-    justify-items: center; 
+}
+
+.project p {
+    font-size: 22px;                           
+    font-family: 'Georgia', serif;
+    line-height: 2.0;           
+    margin-bottom: 20px;        
+    text-align: center; 
+    color: #313030; 
+    font-weight: 200;       
 
 }
 
-.Project-listing .col {
-    width: 100%; 
+.Project-listing {
+    background-color: #dad5d5;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+     
+}
+
+.col {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
 }
 
 .big-background {
-    background-color: #f9f9f9; 
-    border-radius: 8px; 
-    padding: 20px; 
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    padding-top: 20px;
+
+
+
 }
 
-.big-background img {
-   border-radius: 7px;
+img {
+    max-height: 300px;
+    max-width: 450px;
+    border: black 0.5px solid;
+    border-radius: 5px;
 }
 
-.big-background p {
-    font-size: 1rem;
-    color: #333;
+.Project-listing p {
+    padding-bottom: 20px;
+    padding-top: 7px;
+    text-decoration: none;
+    text-align: center;
+
+
+
 }
 
-.big-background a {
-    color: #007bff; /* Blue link color */
-    text-decoration: none; /* Remove underline */
-}
-
-.big-background a:hover {
-    text-decoration: underline; /* Underline on hover */
-}
 
 .contact {
     padding: 20px;
     background-image: url(../img/contact-image.jpg);
     background-size: cover;       
     background-position: center;  
-    background-repeat: no-repeat;
-    border-top-left-radius: 10px;  
-    border-top-right-radius: 10px;      
+    background-repeat: no-repeat;     
     width: 100%;                  
     margin: 0 auto;              
     text-align: center;         
 }
   
 .contact h2 {
+    font-style: italic;
     font-size: 22px;         
-    color: #4b4747;                
+    color: #070606;                
     margin-bottom: 15px;       
     text-transform: uppercase; 
-    font-weight: 250;
+    font-weight: 400;
     padding: 20px 20px;
     
     
@@ -160,6 +179,21 @@ body {
     text-align: center; 
     color: rgb(49, 48, 48); 
     font-weight: 200;       
+}
+
+@media (max-width: 600px) {
+    .contact {
+        padding: 15px; 
+        max-width: 100%; 
+    }
+    
+    .contact h2 {
+        font-size: 17px; 
+    }
+
+    .contact .h2, .p {
+        font-size: 15px; 
+    }
 }
 
 
