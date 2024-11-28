@@ -9,14 +9,121 @@ body {
      background-image: url('../img/portfolio\ background\ image.jpg');  
       background-size: cover;                    
       background-position: center;              
-      background-repeat: no-repeat;             
+      background-repeat: repeat;             
       margin: 0;                                
       height: 100vh;
       align-items: center;       
 }
 
+.infirmation {              
+    text-align: center;    
 
 
+}
+
+
+
+
+.information h2 {
+    font-size: 22px;         
+    color: #e3dede;                
+    margin-bottom: 15px;       
+    text-transform: uppercase; 
+    font-weight: 250;
+    padding: 20px 20px;
+    text-align: center;
+
+}
+
+
+.information .intro {
+    font-size: 18px;                           
+    font-family: 'Georgia', serif;
+    line-height: 2.0;           
+    margin-bottom: 20px;        
+    text-align: center; 
+    color: rgb(248, 243, 243); 
+    font-weight: 200; 
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.information .description {
+    font-size: 18px;                           
+    font-family: 'Georgia', serif;
+    line-height: 2.0;           
+    margin-bottom: 20px;        
+    text-align: center; 
+    color: #f8f3f3; 
+    font-weight: 200;
+    padding: 20px; 
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+@media (max-width: 600px) {
+    .information {
+        padding: 15px; 
+        max-width: 100%; 
+    }
+    
+    .information h2 {
+        font-size: 17px; 
+    }
+
+    .information .intro, .information .description {
+        font-size: 1rem; 
+    }
+}
+
+.project {
+    background-color: #bdb4b4;
+
+
+
+}
+
+.project-listing {
+    
+    background-color: #bdb4b4;
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    padding: 20px; 
+    justify-items: center; 
+
+}
+
+.Project-listing .col {
+    width: 100%; 
+}
+
+.big-background {
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    padding: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+.big-background img {
+   border-radius: 7px;
+}
+
+.big-background p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.big-background a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.big-background a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
 
 .contact {
     padding: 20px;
@@ -32,21 +139,18 @@ body {
 }
   
 .contact h2 {
-    font-size: 27px;         
+    font-size: 22px;         
     color: #4b4747;                
-    font-family: 'Arial', sans-serif; 
     margin-bottom: 15px;       
     text-transform: uppercase; 
     font-weight: 250;
     padding: 20px 20px;
-    border: #333 solid 1.4px;
-    border-radius: 7px;
-    background-color: rgb(124, 158, 186);
-    margin-left: 350px;
-    margin-right: 350px;
-
+    
+    
 
 }
+
+
   
 .contact p {
     font-size: 22px;                           
@@ -106,6 +210,11 @@ nav ul li a.fa-linkedin-in {
 nav ul li a.fa-discord {
     color: #5964e9; 
 }
+
+nav ul li a.fa-google {
+    color: #d64e42; 
+}
+
 
 footer {
     text-align: center;
