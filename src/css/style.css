@@ -6,7 +6,7 @@ html {
 }
 
 body {
-     background-image: url('../img/portfolio\ background\ image.jpg');  
+     background-image: url('../img/gradient-background-image.jpg');  
       height: 100%;
       width: 100%;
       background-size: cover;                    
@@ -17,13 +17,11 @@ body {
       align-items: center;       
 }
 
-.infirmation {              
+.information {              
     text-align: center;    
 
 
 }
-
-
 
 
 .information h2 {
@@ -45,7 +43,7 @@ body {
     line-height: 2.0;           
     margin-bottom: 20px;        
     text-align: center; 
-    color: #c2b6b6; 
+    color: #100101; 
     font-weight: 200; 
     padding-left: 20px;
     padding-right: 20px;
@@ -73,12 +71,12 @@ body {
 
 
 .project {
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
+    border-radius: 7px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 25px;
-    background-color: #dad5d5;
+    background-color: #7ddbe8;
+
 
 }
 
@@ -107,11 +105,12 @@ body {
 
 }
 
+
 .Project-listing {
-    background-color: #dad5d5;
+    background-color: #7ddbe8;
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
-     
+    gap: 0px;
 }
 
 .col {
@@ -122,28 +121,80 @@ body {
 
 .big-background {
     padding-top: 20px;
-
-
+    
 
 }
 
 img {
     max-height: 300px;
-    max-width: 450px;
-    border: black 0.5px solid;
-    border-radius: 5px;
+    max-width: 400px;
+    border: #ffffff 0.5px solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
 }
 
+img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 15px #2524241a;
+
+}
+
+
+
 .Project-listing p {
-    padding-bottom: 20px;
+    padding-bottom: 18px;
     padding-top: 7px;
     text-decoration: none;
     text-align: center;
+    background-color: #9a9494;
+    margin-bottom: 18px;
+    border: #ffffff 0.5px solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
 
+.project-listing p:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 15px #2524241a;
+
+}
+
+
+.col:hover {
+    transition: 1.5rem;
 
 
 }
 
+@media (max-width: 768px) {
+    .big-background img {
+        max-width: 100%;  
+    }
+}
+
+
+@media (max-width: 480px) {
+    .big-background img {
+        max-width: 200px;  
+        height: 200px;     
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .big-background img {
+        max-width: 450px;  
+    }
+}
+
+@media (max-width: 768px) {
+    .col {
+        width: 100%; 
+        padding: 10px; 
+    }
+}
 
 .contact {
     padding: 20px;
@@ -153,7 +204,9 @@ img {
     background-repeat: no-repeat;     
     width: 100%;                  
     margin: 0 auto;              
-    text-align: center;         
+    text-align: center;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;         
 }
   
 .contact h2 {
