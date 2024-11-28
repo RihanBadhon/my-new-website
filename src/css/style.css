@@ -73,15 +73,50 @@ header nav button:hover {
 
 }
 
+.introduction {
+    margin-top: 60px;
+    font-size: 25px;
+    align-items: center;
+    display: flex;            
+    flex-direction: column;          
+    justify-content: center;    
+   
+}
+
+.introduction h2 {
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.profile-picture {
+    height: 180px;
+    width: 180px;
+    border-radius: 60%;
+    margin-bottom: 20px;
+
+}
+
+.introduction p {
+     padding: 20px 20px;
+     font-size: 25px;
+     margin-bottom: 70px;
+     font-style: italic;
+
+}
+
+
+
 .information {              
     text-align: center;    
-
+   
 
 }
 
 
 .information h2 {
-    font-size: 27px;         
+    font-size: 35px;         
     color: #100101;                
     margin-bottom: 15px;       
     text-transform: uppercase;
@@ -140,7 +175,7 @@ header nav button:hover {
     font-style: italic;
     padding-top: 15px;
     padding-bottom: 20px;
-    font-size: 27px;         
+    font-size: 35px;         
     color: #171414;                
     margin-bottom: 15px;       
     text-transform: uppercase; 
@@ -151,7 +186,7 @@ header nav button:hover {
 }
 
 .project p {
-    font-size: 22px;                           
+    font-size: 18px;                           
     font-family: 'Georgia', serif;
     line-height: 2.0;           
     margin-bottom: 20px;        
@@ -262,26 +297,26 @@ img:hover {
     margin: 0 auto;              
     text-align: center;
     border-top-left-radius: 7px;
-    border-top-right-radius: 7px;         
+    border-top-right-radius: 7px;
+    opacity: 0.9;         
 }
   
 .contact h2 {
+    padding-top: 10px;
     font-style: italic;
     font-size: 22px;         
-    color: #070606;                
+    color: #000000;                
     margin-bottom: 15px;       
     text-transform: uppercase; 
     font-weight: 400;
     padding: 20px 20px;
-    
-    
-
+       
 }
 
 
   
 .contact p {
-    font-size: 22px;                           
+    font-size: 18px;                           
     font-family: 'Georgia', serif;
     line-height: 2.0;           
     margin-bottom: 20px;        
