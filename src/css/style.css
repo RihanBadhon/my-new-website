@@ -145,9 +145,7 @@ header nav button:hover {
     padding-right: 20px;
 }
 
-
-
-
+/* Took some help from google to fix the responsiveness */
 
 @media (max-width: 600px) {
     .information {
@@ -259,11 +257,8 @@ img:hover {
 }
 
 
-.col:hover {
-    transition: 1.5rem;
 
-
-}
+/* Took some help from google to fix the responsiveness */
 
 @media (max-width: 768px) {
     .big-background img {
@@ -330,6 +325,9 @@ img:hover {
     color: rgb(49, 48, 48); 
     font-weight: 200;       
 }
+
+
+/* Took some help from google to fix the responsiveness */
 
 @media (max-width: 600px) {
     .contact {
