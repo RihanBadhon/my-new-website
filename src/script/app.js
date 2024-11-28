@@ -2,7 +2,7 @@
 
 const contactSection = document.querySelector('.contact');
 const projectSection = document.querySelector('.project');
-
+const knowSection = document.querySelector('.information');
 
 function scrollToContact() {
     if (contactSection) {
@@ -16,6 +16,13 @@ function scrollToProject() {
         projectSection.scrollIntoView({ behavior: 'smooth' });
     }
 }
+
+function scrollToKnow() {
+    if (knowSection) {
+        knowSection.scrollIntoView({ behavior: 'smooth' });
+    }
+}
+
 
 
 console.log('Button clicked!'); 
