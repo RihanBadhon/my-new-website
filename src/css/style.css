@@ -79,7 +79,9 @@ header nav button:hover {
     align-items: center;
     display: flex;            
     flex-direction: column;          
-    justify-content: center;    
+    justify-content: center; 
+    border-top-left-radius: 10px; 
+    border-bottom-right-radius: 10px;  
    
 }
 
@@ -101,15 +103,19 @@ header nav button:hover {
 .introduction p {
      padding: 20px 20px;
      font-size: 25px;
-     margin-bottom: 70px;
+     margin-bottom: 0px;
      font-style: italic;
+     text-align: center;
 
 }
 
 
 
 .information {              
-    text-align: center;    
+    text-align: center;
+    background-color: #7ddbe8;
+   
+    
    
 
 }
@@ -131,8 +137,7 @@ header nav button:hover {
 .information .intro {
     font-size: 18px;                           
     font-family: 'Georgia', serif;
-    line-height: 2.0;           
-    margin-bottom: 20px;        
+    line-height: 2.0;                 
     text-align: center; 
     color: #100101; 
     font-weight: 200; 
@@ -234,6 +239,7 @@ img:hover {
 
 
 .Project-listing p {
+    font-size: 20px;
     padding-bottom: 18px;
     padding-top: 7px;
     text-decoration: none;
